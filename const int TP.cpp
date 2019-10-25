@@ -84,7 +84,7 @@ while(((millis()-tym)<interval))
     dis=dur*0.034/2;     //********
 
       
-     if(dis<80)
+     if(dis < 80)
       { //Serial.println(dis);
         avg+=dis;
       count++;
